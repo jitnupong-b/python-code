@@ -12,10 +12,13 @@ print(type(studentAge))
 teacherName = input('Please insert teacher name:')
 print(teacherName)
 print(type(teacherName))
+
 teacherAge = input('Please insert teacher age:')
 print(type(teacherAge))
+
 teacherAge = int(teacherAge)
 print(type(teacherAge))
+
 teacherAge = float(teacherAge)
 print(type(teacherAge))
 
