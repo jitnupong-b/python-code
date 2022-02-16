@@ -13,14 +13,12 @@ class Car(Automobile):
         # Initialize the _ _doors attribute.
         self.__doors = doors
 
-        # The set_doors method is the mutator for the
-        # _ _doors attribute.
-
+    # The set_doors method is the mutator for the
+    # __doors attribute.
     def set_doors(self, doors):
         self.__doors = doors
 
     # The get_doors method is the accessor for the
-    # _ _doors attribute.
-
+    # __doors attribute.
     def get_doors(self):
         return self.__doors
